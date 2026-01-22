@@ -13,7 +13,7 @@ El portfolio está compuesto por una **API central**, varias **aplicaciones Blaz
 ## 🏗️ Arquitectura
 
 La solución sigue una arquitectura desacoplada basada en múltiples proyectos:
-
+```text
 DotNetPortfolio
 │
 ├── DotNetPortfolio.Api
@@ -33,6 +33,7 @@ DotNetPortfolio
 │
 └── DotNetPortfolio.Web.Maps
 └── Aplicación Blazor WebAssembly (gestión y visualización de mapas)
+```
 
 ## Estado del proyecto
 
