@@ -1,0 +1,94 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    @* <div class="sidebar">
+        <NavMenu />
+    </div> *@
+
+    <main>
+        <div class="top-row px-4">
+            <a @onclick="SobreMi">Sobre Mi</a>
+            <a @onclick="Proyectos">Proyectos</a>
+            <a @onclick="Tecnologias">Tecnologías</a>
+            <a @onclick="Contacto">Contacto</a>
+        </div>
+
+        <article class="content px-4">
+            <section id="sobre-mi" class="section-mod">
+                <h2>Sobre mí</h2>
+                ...
+            </section>
+
+            <section id="proyectos" class="section-mod">
+                <h2>Proyectos</h2>
+                ...
+            </section>
+
+            <section id="tecnologias" class="section-mod">
+                <h2>Tecnologías</h2>
+                ...
+            </section>
+
+            <section id="contacto" class="section-mod">
+                <h2>Contacto</h2>
+                ...
+            </section>
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui" data-nosnippet>
+    An unhandled error has occurred.
+    <a href="." class="reload">Reload</a>
+    <span class="dismiss">🗙</span>
+</div>
+
+<style>
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
+    /* Firefox */
+    html {
+        scrollbar-width: none;
+    }
+
+    .section-mod {
+        height: calc(100vh - 56px);
+        scroll-margin-top: 60px;
+    }
+
+</style>
+
+
+@code {
+    [Inject]
+    private IJSRuntime JS { get; set; } = null!;
+
+    private async Task SobreMi()
+    {
+        //Codigo para scroll ni idea de como se hace
+        await JS.InvokeVoidAsync("scrollToElement", "sobre-mi");
+    }
+
+    private async Task Proyectos()
+    {
+        //Codigo para scroll ni idea de como se hace
+        await JS.InvokeVoidAsync("scrollToElement", "proyectos");
+    }
+
+    private async Task Tecnologias()
+    {
+        //Codigo para scroll ni idea de como se hace
+        await JS.InvokeVoidAsync("scrollToElement", "tecnologias");
+    }
+
+    private async Task Contacto()
+    {
+        //Codigo para scroll ni idea de como se hace
+        await JS.InvokeVoidAsync("scrollToElement", "contacto");
+    }
+
+
+}
