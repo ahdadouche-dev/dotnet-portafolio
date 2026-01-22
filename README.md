@@ -1,68 +1,49 @@
-title: ".NET Developer Portfolio"
+# .NET Developer Portfolio
 
-description: >
-  Portfolio profesional desarrollado con .NET, diseñado con una arquitectura
-  limpia, modular y escalable. El proyecto demuestra conocimientos reales en
-  desarrollo backend y frontend, buenas prácticas de arquitectura, reutilización
-  de código y organización de soluciones complejas.
+## 📌 Descripción
 
-architecture:
-  overview: >
-    La solución sigue una arquitectura desacoplada basada en una API central,
-    varias aplicaciones Blazor independientes y proyectos compartidos
-    reutilizables.
-  structure:
-    - name: DotNetPortfolio.Api
-      description: API REST desarrollada con ASP.NET Core
-    - name: DotNetPortfolio.Shared
-      description: Modelos, DTOs, contratos e interfaces compartidas
-    - name: DotNetPortfolio.Components
-      description: Razor Class Library con componentes UI reutilizables
-    - name: DotNetPortfolio.Web.Home
-      description: Aplicación Blazor WebAssembly para la presentación principal
-    - name: DotNetPortfolio.Web.Business
-      description: Aplicación Blazor WebAssembly para gestión empresarial
-    - name: DotNetPortfolio.Web.Maps
-      description: Aplicación Blazor WebAssembly para gestión y visualización de mapas
+Este repositorio contiene mi **portfolio profesional desarrollado con .NET**, diseñado con una arquitectura limpia, modular y escalable.
 
-principles:
-  - Separación clara de responsabilidades
-  - Reutilización de código mediante proyectos compartidos
-  - API única consumida por múltiples aplicaciones
-  - Escalabilidad para añadir nuevas aplicaciones sin afectar a las existentes
+El objetivo del proyecto es demostrar conocimientos reales en **desarrollo backend y frontend**, buenas prácticas de arquitectura, reutilización de código y organización de soluciones complejas en .NET.
 
-technologies:
-  - ".NET 9"
-  - "ASP.NET Core Web API"
-  - "Blazor WebAssembly"
-  - "Razor Class Library (RCL)"
-  - "HTTP / JSON"
-  - "Git"
+El portfolio está compuesto por una **API central**, varias **aplicaciones Blazor** y proyectos compartidos reutilizables.
 
-execution:
-  requirements:
-    - Visual Studio 2022
-    - .NET SDK 9
-  steps:
-    - Clonar el repositorio desde GitHub
-    - Abrir la solución en Visual Studio 2022
-    - Restaurar paquetes NuGet
-    - Establecer como proyecto de inicio la API y una app Blazor
-    - Ejecutar la solución
+---
 
-features:
-  - API REST centralizada
-  - Aplicaciones Blazor independientes
-  - Modelos y contratos compartidos
-  - Componentes UI reutilizables
-  - Navegación SPA fluida
-  - Arquitectura preparada para crecimiento
+## 🏗️ Arquitectura
 
-status: "En desarrollo activo"
+La solución sigue una arquitectura desacoplada basada en múltiples proyectos:
 
-author:
-  name: Mohamed Ahdadouche
-  role: Desarrollador .NET
-  github: https://github.com/ahdadouche-dev
+DotNetPortfolio
+│
+├── DotNetPortfolio.Api
+│ └── API REST en ASP.NET Core
+│
+├── DotNetPortfolio.Shared
+│ └── Modelos, DTOs, contratos e interfaces compartidas
+│
+├── DotNetPortfolio.Components
+│ └── Razor Class Library con componentes UI reutilizables
+│
+├── DotNetPortfolio.Web.Home
+│ └── Aplicación Blazor WebAssembly (inicio / presentación)
+│
+├── DotNetPortfolio.Web.Planning
+│ └── Aplicación Blazor WebAssembly (gestión empresarial)
+│
+└── DotNetPortfolio.Web.Maps
+└── Aplicación Blazor WebAssembly (gestión y visualización de mapas)
 
-license: MIT
+## Estado del proyecto
+
+En desarrollo activo
+
+## Autor
+
+Mohamed Ahdadouche El Idrissi
+Desarrollador .NET
+GitHub: https://github.com/ahdadouche-dev
+
+##Licencia
+
+MIT
