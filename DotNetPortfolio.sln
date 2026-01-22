@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36915.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPortfolio.WEB.Planning", "DotNetPorfolio.WEB.Planning\DotNetPortfolio.WEB.Planning.csproj", "{B5DBDE70-B2DF-41C3-77B6-2FC23C292070}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPortfolio.API", "DotNetPortfolio.API\DotNetPortfolio.API.csproj", "{E5F452C5-1064-1EA8-4BD0-9D1F6938C5D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPortfolio.SHARED", "DotNetPortfolio.SHARED\DotNetPortfolio.SHARED.csproj", "{FF80E742-281A-9D5A-F9D0-83E7C3543019}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPortfolio.WEB.Home", "DotNetPortfolio.WEB.Home\DotNetPortfolio.WEB.Home.csproj", "{525130EA-3062-5FCF-30B7-8A6BF5DF6997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPortfolio.WEB.Planning", "DotNetPortfolio.WEB.Planning\DotNetPortfolio.WEB.Planning.csproj", "{9913B6EE-0B15-1C47-E24B-12BE30758131}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5DBDE70-B2DF-41C3-77B6-2FC23C292070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5DBDE70-B2DF-41C3-77B6-2FC23C292070}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5DBDE70-B2DF-41C3-77B6-2FC23C292070}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5DBDE70-B2DF-41C3-77B6-2FC23C292070}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E5F452C5-1064-1EA8-4BD0-9D1F6938C5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5F452C5-1064-1EA8-4BD0-9D1F6938C5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5F452C5-1064-1EA8-4BD0-9D1F6938C5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{525130EA-3062-5FCF-30B7-8A6BF5DF6997}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{525130EA-3062-5FCF-30B7-8A6BF5DF6997}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{525130EA-3062-5FCF-30B7-8A6BF5DF6997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9913B6EE-0B15-1C47-E24B-12BE30758131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9913B6EE-0B15-1C47-E24B-12BE30758131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9913B6EE-0B15-1C47-E24B-12BE30758131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9913B6EE-0B15-1C47-E24B-12BE30758131}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
