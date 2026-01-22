@@ -44,7 +44,3 @@ En desarrollo activo
 Mohamed Ahdadouche El Idrissi.  
 Desarrollador .NET.  
 GitHub: https://github.com/ahdadouche-dev.  
-
-## Licencia
-
-MIT
