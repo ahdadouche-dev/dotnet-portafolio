@@ -41,9 +41,9 @@ En desarrollo activo
 
 ## Autor
 
-Mohamed Ahdadouche El Idrissi
-Desarrollador .NET
-GitHub: https://github.com/ahdadouche-dev
+Mohamed Ahdadouche El Idrissi.
+Desarrollador .NET.
+GitHub: https://github.com/ahdadouche-dev.
 
 ##Licencia
 
